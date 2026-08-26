@@ -1,0 +1,61 @@
+group,mint,chain,ground_truth,ground_truth_reason,rb_verdict,rb_module,rb_detail,goplus_verdict,goplus_flags,agree
+A_claimed_rug,CXRhJrBcCk1m83soxiGjY1AwiY6awAxhua6zPZMqpump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,ETWVkgQHsqnDWTmYg3hkhEPSfN49K7S42BhGPVZXpump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,4iP7S9fCzDT1fMYRT71eEqyNjYjuVW3H6JH6Pscepump,SOLANA,,creator never held tokens on-chain in sampled txs,DANGER,funding_hops,serial_rug_count=2 funding_hops=1 wash=false,SAFE,,N/A
+A_claimed_rug,36asThTj9MMaLzUtHwcccPqRyaMnDRDrvYSaKqcXpump,SOLANA,False,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,Y
+A_claimed_rug,74nxamVTxGkqH2P4UCK6qmfBRcTGyKRAUnsDtBKEpump,SOLANA,True,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N
+A_claimed_rug,HoBvJJQxb9Dq2P2sePRkLEzAeZxvmG5QqKumy1PHpump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,FXeybZmUtC6iRWuHTXuWEvBK8k4YrEfqo6duNBHx1WeB,SOLANA,,creator never held tokens on-chain in sampled txs,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N/A
+A_claimed_rug,5qa7a6SJencH8aCiPMVkygeC9k22TXErwU3uAMMkpump,SOLANA,,creator never held tokens on-chain in sampled txs,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N/A
+A_claimed_rug,7hZL9nGF37WRMLk8bRWa2WwfbKCifFoxNG2ixPoWpump,SOLANA,False,,DANGER,funding_hops,serial_rug_count=1 funding_hops=3 wash=false,SAFE,,Y
+A_claimed_rug,EFz8iiRZun936jwQFCSEosb1dPSHqDZF8Rbr7iBEdxFv,SOLANA,,creator never held tokens on-chain in sampled txs,DANGER,funding_hops,serial_rug_count=0 funding_hops=1 wash=true,SAFE,,N/A
+A_claimed_rug,GVpuL5cBU6WmUffK7UrBDvbDYLSojDLMgM53y7BPpump,SOLANA,False,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,Y
+A_claimed_rug,G6WpLkxU44fqWQ5W2y5fDwm5cMG26n3a2TqGwf4upump,SOLANA,False,,DANGER,funding_hops,serial_rug_count=1 funding_hops=3 wash=false,SAFE,,Y
+A_claimed_rug,HEoAb66vM87StCj3xyzDSCwVfPgx9ffp2yz1zqkgpump,SOLANA,True,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N
+A_claimed_rug,3FpBvhnAJAxjH25WqpYfoUuuB7Dy1UT72Aax4Na5pump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,6vpuYc1JzwsHvdf7gHQDby6o45mqsLe9QsJ5uDzgpump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,2SVgSUgfAd1PWs83rjgBBfmdJyerktdsKFCdZdEwpump,SOLANA,False,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,Y
+A_claimed_rug,E1XN3WJLZsuBkFc5kw5R1YkdNaQx4VSwkXh4Dyz7pump,SOLANA,False,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,Y
+A_claimed_rug,3TByinjHpnNVZsH2miX9DwgTFB7JPm65yzDN2gSqpump,SOLANA,True,,DANGER,funding_hops,serial_rug_count=1 funding_hops=2 wash=false,SAFE,,N
+A_claimed_rug,3ZuZXv2g3TZofEogzM9rwEbVB5i1NwL8TqNCWH2jpump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,7p7ZMhihbDEoRmjTrriUMpM6jHE1jBhjXFG6iztPpump,SOLANA,True,,DANGER,funding_hops,serial_rug_count=1 funding_hops=2 wash=false,SAFE,,N
+A_claimed_rug,6ML7tXmHEyESa2Rtj9FzqvQVA5DhsjPh4wpAvGgLpump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=4 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,7yxMBwCGGoezVoQbe1nJnEJhUa5srGXUUcaMJUGJpump,SOLANA,,creator never held tokens on-chain in sampled txs,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N/A
+A_claimed_rug,CHMfiUmZvKwLdjo3nfZHQHp3RrbCBMAuRkkqnGPnpump,SOLANA,True,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N
+A_claimed_rug,5dZgVxYT8eaNFnhK4MiAXcfpmJZw7sYuVt8d6ga7pump,SOLANA,False,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,Y
+A_claimed_rug,3n1Zy2pjN1WmKirKP31xvdZNC5QGEtisZpCP8taDpump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,BiHqVnZibFk3po2JpTWnpeDy1ryTceQ88x1HM5TEpump,SOLANA,True,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N
+A_claimed_rug,23dxgqAtivdW9cZz7UDFAGXUtByz5sXhKRDENdbXpump,SOLANA,True,,DANGER,serial_rugger,serial_rug_count=3 funding_hops=0 wash=false,SAFE,,N
+A_claimed_rug,5xiZPxhgFf3cUZoYFesgVtaCjGLmnC6b98tpGDKVpump,SOLANA,False,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,Y
+A_claimed_rug,AShmQtSBCXX7ygHs9kv1Gkrfw5dqkfAidc9hZpowpump,SOLANA,True,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N
+A_claimed_rug,AyerU4udx5PF6ueZne2GuhgLDkqqQLuxzVPbS5sppump,SOLANA,True,,DANGER,funding_hops,serial_rug_count=1 funding_hops=1 wash=false,SAFE,,N
+B_claimed_legit,6BmPY8dxMgMbuZbni38N71Ym2kqzy9pFxuNmAQb9pump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,9vhS5xp7v1UnixkSQxA2JEda6QCuDzLy82YLdYWrpump,SOLANA,True,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N
+B_claimed_legit,BDP33gsHqtXcLfQNp6M3egzT7wpuvnghjLzVSrecpump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,Ci627cbj7msKJ6wnBLSvAjeAjm4R41uP9t4aNmGUpump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,Fzvj7uow6JmyFdy7p6kL54k3GxPpqFuEnUnSFMygpump,SOLANA,True,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N
+B_claimed_legit,4Jvo1xiBdXrGo7ftxFUikPeYfdyetSCUjbBQaWappump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,5qYhzhLyYtpq8wNh7Y1nZKUPC1ys2DyHpdadCi4zpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,Bs9t9FVsA1FjwqmN15v5ebX2C7z2puB763d14wvnpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",NO_DATA,,N/A
+B_claimed_legit,Eku2gfEAEtPTKohd4z51NhUpUrNjZEzYhSVPTtmcpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",NO_DATA,,N/A
+B_claimed_legit,Ak1ST5enz4fz5rRcygB7QZikZi9Wx83xtFevjQx3pump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",NO_DATA,,N
+B_claimed_legit,GvGQVVuqRGr3Ws6xm7Ufz4hWo5sZTVkGYyHc8sjMpump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",NO_DATA,,N
+B_claimed_legit,57hUtXYAHgRf4HeWUhGKHgD1dx1eAkuLkeZExxBHpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,AZ8iS2BAi38X4xk6HRzCb4XJxGYSq94y1KDZtsQBpump,SOLANA,True,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N
+B_claimed_legit,5RniaQHEsKAMzJEZ6ahiZVau2pHc4A7A1b7RiMZspump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,Gj6y1oVf13o3NsRPCPazHevkHMNdGUxYkqpb3ABQpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,4TiKm8SYaKXUKNzCaMWTKcHNUEfMEpYbUPf4M9TMpump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,Ei87k3iyJqSvp18BY7RnCgFxugWn7bdXzwRi2qsApump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,9Dm4sMhcJBqP9W6xSTknn6W4PBst76rMqkQ5sRYopump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,FtXZUD4MXncUCJ3HqiJJh3pdzT3wPkjSWbr75AV9pump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,3df1C56QgdTabmKvRjmfSFU4pN8wnPn3bqhf1ktbpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,AWjPT7ytE5CpKeb8uxiuWVt6SN6KS7eLNus5tijYpump,SOLANA,,creator holding not observed; traded=False,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,4Zvkhj2uoVAcDxt2wNTEo2EFxCgCnyffdRGQVK9Dpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,6eqqERgLGrhfuFyqb4vFBJjGiaKxfFWgsLX3C9etpump,SOLANA,,creator holding not observed; traded=False,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,HzjqQ9t49zDdoHfc5WGunE5fS1KMhPLAd7hHEwxwpump,SOLANA,True,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N
+B_claimed_legit,HtUaxcyo5i1kATkqpnUAZVNYftDJo8CpJyt2baX2pump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,3RTgJ5V2nCSfSueK3kLaRmSrHoVeJuj9X7xwghFkpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,51FFRiw21aFV3XYBVEpEfpDKFzTwFVYRa3CN71Ttpump,SOLANA,,creator holding not observed; traded=True,GOOD,n/a,"scored GOOD, >20d old",SAFE,,N/A
+B_claimed_legit,BLL8rQwibSnEbjz9pG2wEQXnqCbdjCC8t3ASwdYppump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,C1CVJke9MVyCDPMfaviorQyAfodzoMuegpjX1Y3Hpump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y
+B_claimed_legit,GL8YYGXKCbfpZYMGAHZyB6hHx1bFFKAkX827pvqwpump,SOLANA,False,,GOOD,n/a,"scored GOOD, >20d old",SAFE,,Y

@@ -1,0 +1,1194 @@
+[
+ {
+  "group": "A_claimed_rug",
+  "mint": "CXRhJrBcCk1m83soxiGjY1AwiY6awAxhua6zPZMqpump",
+  "creator": "126kHRLgCJeGqU8Ye7CkhmqnVxTrgb7dY1DQbgNsLD7x",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 12,
+   "max_hold": 17376518.16691,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "ETWVkgQHsqnDWTmYg3hkhEPSfN49K7S42BhGPVZXpump",
+  "creator": "12a29aVxjxikhRu2KKDhkC2DF6yygCDxuJACuDuMjMjB",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 5,
+   "max_hold": 3565339.235415,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "4iP7S9fCzDT1fMYRT71eEqyNjYjuVW3H6JH6Pscepump",
+  "creator": "12HAZefDKKCSC5bfhBeM71UW2LV6tK9LLF7WY2sF53a1",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=2 funding_hops=1 wash=false",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator never held tokens on-chain in sampled txs",
+   "n_txs": 503,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "36asThTj9MMaLzUtHwcccPqRyaMnDRDrvYSaKqcXpump",
+  "creator": "12LHmTuySsRYcHwUAmn5nMqtDWAhjXtT6m2YNQoo7E91",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "n_txs": 1,
+   "max_hold": 212000.0,
+   "end_hold": 212000.0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "74nxamVTxGkqH2P4UCK6qmfBRcTGyKRAUnsDtBKEpump",
+  "creator": "12SgYu373ViXFMHt7eWL85dbXem8ShHFe37MZkFj8ZYg",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 16,
+   "max_hold": 3565339.235415,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "HoBvJJQxb9Dq2P2sePRkLEzAeZxvmG5QqKumy1PHpump",
+  "creator": "13oQta41NBeCSyjZUGm63FSJMCpsUfen7HyGCggUB576",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 29,
+   "max_hold": 34612903.259302,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "FXeybZmUtC6iRWuHTXuWEvBK8k4YrEfqo6duNBHx1WeB",
+  "creator": "13qsFDMKvm9rCkpQGgqJ8BXRUNotQrWXKH49pUaixUYN",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator never held tokens on-chain in sampled txs",
+   "n_txs": 2001,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "5qa7a6SJencH8aCiPMVkygeC9k22TXErwU3uAMMkpump",
+  "creator": "14onpqnhGahiwPK3PDyr1vrVNNvk6Bdasps15DQxvYuC",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator never held tokens on-chain in sampled txs",
+   "n_txs": 2009,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "7hZL9nGF37WRMLk8bRWa2WwfbKCifFoxNG2ixPoWpump",
+  "creator": "14QHfZtLFEh1GFSm5n2N4nTxkqERKHvapp5UhDMHxjyD",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=3 wash=false",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "n_txs": 330,
+   "max_hold": 5684323.169687,
+   "end_hold": 5684323.169687
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "EFz8iiRZun936jwQFCSEosb1dPSHqDZF8Rbr7iBEdxFv",
+  "creator": "14s8o2r8SkpzzZenegn6YjNVPBoiFpS27C74FY5cocbm",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=0 funding_hops=1 wash=true",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator never held tokens on-chain in sampled txs",
+   "n_txs": 1,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "GVpuL5cBU6WmUffK7UrBDvbDYLSojDLMgM53y7BPpump",
+  "creator": "162tKnmHJ8aEsue9qyw3QkdE1KvBRnzZdCpkTwmbkRp",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "n_txs": 98,
+   "max_hold": 35323.892708,
+   "end_hold": 35323.892708
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "G6WpLkxU44fqWQ5W2y5fDwm5cMG26n3a2TqGwf4upump",
+  "creator": "16aUupTfqyfU99rQw7ppaATmY278x5of9H2xJLREdKK",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=3 wash=false",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "n_txs": 36,
+   "max_hold": 2115327.702796,
+   "end_hold": 2115327.702796
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "HEoAb66vM87StCj3xyzDSCwVfPgx9ffp2yz1zqkgpump",
+  "creator": "1fz5T6EmsEWwBbXQ9x5CLY59oV4WVXAhT83YwgSDL5U",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 22,
+   "max_hold": 7253833.009324,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "3FpBvhnAJAxjH25WqpYfoUuuB7Dy1UT72Aax4Na5pump",
+  "creator": "1j5ZeN8MAW2EYDbY5mbVZ7CD3nPfqssK9KeUR9H5Gsb",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 62,
+   "max_hold": 3520918.746848,
+   "end_hold": 0.127072
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "6vpuYc1JzwsHvdf7gHQDby6o45mqsLe9QsJ5uDzgpump",
+  "creator": "1jUe2bBBkSWh2wVD3q2xAmWRpjDU4mgYwY3KaPqGBX7",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 97,
+   "max_hold": 2142050.542025,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "2SVgSUgfAd1PWs83rjgBBfmdJyerktdsKFCdZdEwpump",
+  "creator": "1mQj8VLFYLP9LFXedmCjhqad4hKXQ4S2PJRnRL2Xsai",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "n_txs": 4326,
+   "max_hold": 34199203.1,
+   "end_hold": 34199203.1
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "E1XN3WJLZsuBkFc5kw5R1YkdNaQx4VSwkXh4Dyz7pump",
+  "creator": "21p73XVko4qjTTfXJUafrAYrEWyerYNHecD62PRY9vGm",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "n_txs": 216,
+   "max_hold": 426004962.756358,
+   "end_hold": 426004962.756358
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "3TByinjHpnNVZsH2miX9DwgTFB7JPm65yzDN2gSqpump",
+  "creator": "22GaU5EwikZJx3RYzEjtie2Rq9oz15o8rLSs7gZMXNqP",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=2 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 68,
+   "max_hold": 20345024.543012,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "3ZuZXv2g3TZofEogzM9rwEbVB5i1NwL8TqNCWH2jpump",
+  "creator": "22GHyTuKjTVwRDJYxbQiCyGJDFfveP78ye1i2HtKQHtG",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 313,
+   "max_hold": 1457419707.703752,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "7p7ZMhihbDEoRmjTrriUMpM6jHE1jBhjXFG6iztPpump",
+  "creator": "22yH41EyeqGVW4CCJMMhAxUn7zhV1ZXaa7ocvWKFxB1i",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=2 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 62,
+   "max_hold": 6321152.166396,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "6ML7tXmHEyESa2Rtj9FzqvQVA5DhsjPh4wpAvGgLpump",
+  "creator": "23D32H7kAVoZ9fW4PQBm6WaUp3k1sxsLcu6txjqHhd26",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=4 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 28,
+   "max_hold": 7105960.300195,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "7yxMBwCGGoezVoQbe1nJnEJhUa5srGXUUcaMJUGJpump",
+  "creator": "23QuARJvRDKYy7c9QM8NCVZJSBKy3EALUkzSvf5Gft3U",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator never held tokens on-chain in sampled txs",
+   "n_txs": 3877,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "CHMfiUmZvKwLdjo3nfZHQHp3RrbCBMAuRkkqnGPnpump",
+  "creator": "23tA8zYuz8Mx5mcAZkb7S3gCF1GpNaGToGo7rn5gpbTR",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 6991,
+   "max_hold": 385034300.765236,
+   "end_hold": 3331214.119474
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "5dZgVxYT8eaNFnhK4MiAXcfpmJZw7sYuVt8d6ga7pump",
+  "creator": "23ttbdTjhG4zj2bDr1PEDGha1XyYnAhagRrmuKcfqq9U",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "n_txs": 1,
+   "max_hold": 35323.892708,
+   "end_hold": 35323.892708
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "3n1Zy2pjN1WmKirKP31xvdZNC5QGEtisZpCP8taDpump",
+  "creator": "244rGsGriCwZ94NZywZuN3LAAkks8V42oAPMpLjQuZa4",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 22,
+   "max_hold": 153285714.285714,
+   "end_hold": 2e-06
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "BiHqVnZibFk3po2JpTWnpeDy1ryTceQ88x1HM5TEpump",
+  "creator": "25jZ7EwnKfZo2DZgHM27pbU5Tf54PYG8jc7qNL3gtkxG",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 1666,
+   "max_hold": 153285714.285714,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "23dxgqAtivdW9cZz7UDFAGXUtByz5sXhKRDENdbXpump",
+  "creator": "26kkWb5WygLsoaPNsA2pYNBWG3TyDAG1ypFeoWL2Nsn3",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "serial_rugger",
+  "rb_detail": "serial_rug_count=3 funding_hops=0 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 13,
+   "max_hold": 5271907.456931,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "5xiZPxhgFf3cUZoYFesgVtaCjGLmnC6b98tpGDKVpump",
+  "creator": "26vCwBGdFaDFE3ZhVLKppPp2vbjTbeVbWhjfKgM6fKhW",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "n_txs": 1087,
+   "max_hold": 20784503.577184,
+   "end_hold": 20784503.577184
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "AShmQtSBCXX7ygHs9kv1Gkrfw5dqkfAidc9hZpowpump",
+  "creator": "26VKXZa4cvRq28taPukQxufWZzM6uhu5JVA1tu1aMg1T",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 58,
+   "max_hold": 35765.474484,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "A_claimed_rug",
+  "mint": "AyerU4udx5PF6ueZne2GuhgLDkqqQLuxzVPbS5sppump",
+  "creator": "27YMYLrDEsMBAWbtsbC8QMv78WgmPxAWhJ2P9SfdAPdt",
+  "name": null,
+  "rb_verdict": "DANGER",
+  "rb_module": "funding_hops",
+  "rb_detail": "serial_rug_count=1 funding_hops=1 wash=false",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "n_txs": 4,
+   "max_hold": 1411145.750589,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "6BmPY8dxMgMbuZbni38N71Ym2kqzy9pFxuNmAQb9pump",
+  "creator": "2aPTj1aYGNecGnV5Y5siEZmAYHn3ZpxziyUaJcj4jyYQ",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 101,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "9vhS5xp7v1UnixkSQxA2JEda6QCuDzLy82YLdYWrpump",
+  "creator": "CkdusSmKEao5AftHegAYVMQqfJrwk9yZJgrwrMXCAQ1R",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "traded": true,
+   "not_dumped": true,
+   "n_txs": 154,
+   "max_hold": 1097486.860971,
+   "end_hold": 1097486.860971
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "BDP33gsHqtXcLfQNp6M3egzT7wpuvnghjLzVSrecpump",
+  "creator": "8oZiaf74SwU9YufXNWHHZj6kih6RrqaZ3T38exYD27jw",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": true,
+   "not_dumped": false,
+   "n_txs": 71,
+   "max_hold": 357547.484171,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "Ci627cbj7msKJ6wnBLSvAjeAjm4R41uP9t4aNmGUpump",
+  "creator": "whamNNP9tHoxLg92yHvJPdYhghEoCg1qYTsh5a2oLbx",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": true,
+   "not_dumped": false,
+   "n_txs": 104,
+   "max_hold": 153285714.285714,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "Fzvj7uow6JmyFdy7p6kL54k3GxPpqFuEnUnSFMygpump",
+  "creator": "FaBGrHWjcJ8vKnbgUtsdpZjvF7YAAajtQTWmmEHiKtQr",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "traded": true,
+   "not_dumped": true,
+   "n_txs": 1201,
+   "max_hold": 104574060.264338,
+   "end_hold": 104574060.264338
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "4Jvo1xiBdXrGo7ftxFUikPeYfdyetSCUjbBQaWappump",
+  "creator": "24TbVPoWAkhhQ7XkvHUY995rnEfgVAHzmardGJtMKAP4",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": false,
+   "not_dumped": true,
+   "n_txs": 3,
+   "max_hold": 35323.892708,
+   "end_hold": 35323.892708
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "5qYhzhLyYtpq8wNh7Y1nZKUPC1ys2DyHpdadCi4zpump",
+  "creator": "6WotQMkWDXTrUApqNvx8k4ApfZXmDhyLKCobYKzBbEDJ",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 311,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "Bs9t9FVsA1FjwqmN15v5ebX2C7z2puB763d14wvnpump",
+  "creator": "3iTuHEp24JupUmoUbJfi4zGGk3fGsn5rVRfJKAchBWff",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 344,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "NO_DATA",
+  "goplus_flags": [],
+  "goplus_raw_present": false
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "Eku2gfEAEtPTKohd4z51NhUpUrNjZEzYhSVPTtmcpump",
+  "creator": "3t998EoW9WnMabrQYkKnyXDp5Cm2xkHVMqQD7wNgHg5x",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 203,
+   "max_hold": 0.0,
+   "end_hold": 0
+  },
+  "goplus_verdict": "NO_DATA",
+  "goplus_flags": [],
+  "goplus_raw_present": false
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "Ak1ST5enz4fz5rRcygB7QZikZi9Wx83xtFevjQx3pump",
+  "creator": "ETwe81ADj1oAP8azsKcJrosV4oWJKnsr4jmAZZuiqB2v",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": false,
+   "not_dumped": false,
+   "n_txs": 12,
+   "max_hold": 8572928.371238,
+   "end_hold": 0
+  },
+  "goplus_verdict": "NO_DATA",
+  "goplus_flags": [],
+  "goplus_raw_present": false
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "GvGQVVuqRGr3Ws6xm7Ufz4hWo5sZTVkGYyHc8sjMpump",
+  "creator": "8PnxBsDXno1FbupjVFFBFpNtXW4mMBdYmVpXMJU3ib5i",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": true,
+   "not_dumped": false,
+   "n_txs": 120,
+   "max_hold": 50494117.566461,
+   "end_hold": 0
+  },
+  "goplus_verdict": "NO_DATA",
+  "goplus_flags": [],
+  "goplus_raw_present": false
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "57hUtXYAHgRf4HeWUhGKHgD1dx1eAkuLkeZExxBHpump",
+  "creator": "AYEHKbGooTCishm755ArC88YZPJ29Rfh3b4q2hpyJPAQ",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 389,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "AZ8iS2BAi38X4xk6HRzCb4XJxGYSq94y1KDZtsQBpump",
+  "creator": "5B79fMkcFeRTiwm7ehsZsFiKsC7m7n1Bgv9yLxPp9q2X",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "traded": true,
+   "not_dumped": true,
+   "n_txs": 137,
+   "max_hold": 176989690.673615,
+   "end_hold": 176989690.673615
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "5RniaQHEsKAMzJEZ6ahiZVau2pHc4A7A1b7RiMZspump",
+  "creator": "ED87W18Yh2HHUKYr2Uf2kQXXoAEoDg9Qvk4r7ta6q1n8",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": true,
+   "not_dumped": false,
+   "n_txs": 46,
+   "max_hold": 3209871.901906,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "Gj6y1oVf13o3NsRPCPazHevkHMNdGUxYkqpb3ABQpump",
+  "creator": "ABRtpSriTw7pCmnYEg5JqiKhwnxqw7t3kLAQj2ppsPiK",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 604,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "4TiKm8SYaKXUKNzCaMWTKcHNUEfMEpYbUPf4M9TMpump",
+  "creator": "Ar3EMLHmDmsCuniER8G72vYc7VMcAZfMhbGKtSf35c7",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": true,
+   "not_dumped": false,
+   "n_txs": 73,
+   "max_hold": 97545454.545453,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "Ei87k3iyJqSvp18BY7RnCgFxugWn7bdXzwRi2qsApump",
+  "creator": "3ckd9vDwZZ88fqUKrQqTt16L54ndwqKoc2M31LhLHAm4",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 556,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "9Dm4sMhcJBqP9W6xSTknn6W4PBst76rMqkQ5sRYopump",
+  "creator": "8YcbyX92UHTU23HZv3ccP9o13qibErQkKaUjoxqxd7SJ",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": false,
+   "not_dumped": true,
+   "n_txs": 5,
+   "max_hold": 34199203.120618,
+   "end_hold": 34199203.120618
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "FtXZUD4MXncUCJ3HqiJJh3pdzT3wPkjSWbr75AV9pump",
+  "creator": "BZCDFXAGwnivQLqETsv1xWuuS9mqD824nSjkP4C2VcTh",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": true,
+   "not_dumped": false,
+   "n_txs": 786,
+   "max_hold": 49714285.667643,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "3df1C56QgdTabmKvRjmfSFU4pN8wnPn3bqhf1ktbpump",
+  "creator": "7vpSsw3WQFvsLCSeQnmbpjZrNbQ7dUPVBVCbqJ9wvuGf",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 327,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "AWjPT7ytE5CpKeb8uxiuWVt6SN6KS7eLNus5tijYpump",
+  "creator": "tn92v5BMr8taqMff2GgbhFPusRK3ksYdBVYTqqonJ28",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=False",
+   "n_txs": 4,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "4Zvkhj2uoVAcDxt2wNTEo2EFxCgCnyffdRGQVK9Dpump",
+  "creator": "8sviJnYWaJoVC2ECWyc1LpJBK3djRMChS5yBbdLDvDFJ",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 234,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "6eqqERgLGrhfuFyqb4vFBJjGiaKxfFWgsLX3C9etpump",
+  "creator": "B7t9N2jbWoL9LzDixJc5JCJNWddxrhF5RvAKt56SyzYf",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=False",
+   "n_txs": 5,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "HzjqQ9t49zDdoHfc5WGunE5fS1KMhPLAd7hHEwxwpump",
+  "creator": "FaJxvj5rCHhm6PukLf4QnWrw31gQ9Z2hsuzacW8QyrQ5",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": true,
+  "ground_truth_detail": {
+   "confirmed": true,
+   "traded": true,
+   "not_dumped": true,
+   "n_txs": 4427,
+   "max_hold": 176989690.673615,
+   "end_hold": 90264742.243544
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "HtUaxcyo5i1kATkqpnUAZVNYftDJo8CpJyt2baX2pump",
+  "creator": "5FqUo9aBjsp7QeeyN6Vi2ZmF2fjS4H5EU7wnAQwPy17z",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": true,
+   "not_dumped": false,
+   "n_txs": 105,
+   "max_hold": 153285714.285714,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "3RTgJ5V2nCSfSueK3kLaRmSrHoVeJuj9X7xwghFkpump",
+  "creator": "7pXNN9jsK43Rw8TjARtRZRKm7iqhxEcAtpn6MS2tLWyR",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 173,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "51FFRiw21aFV3XYBVEpEfpDKFzTwFVYRa3CN71Ttpump",
+  "creator": "5949hDDDHaxoXemTJmVHArL6avYXUxKY8Ad7Tz43GnCg",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": null,
+  "ground_truth_detail": {
+   "confirmed": null,
+   "reason": "creator holding not observed; traded=True",
+   "n_txs": 1781,
+   "max_hold": 0.0,
+   "end_hold": null
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "BLL8rQwibSnEbjz9pG2wEQXnqCbdjCC8t3ASwdYppump",
+  "creator": "8oZiaf74SwU9YufXNWHHZj6kih6RrqaZ3T38exYD27jw",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": true,
+   "not_dumped": false,
+   "n_txs": 105,
+   "max_hold": 225894736.842105,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "C1CVJke9MVyCDPMfaviorQyAfodzoMuegpjX1Y3Hpump",
+  "creator": "CvDKe53BzYVyAZgJZhq6bVUW1F9v5oyD3zeYsxmqNE5n",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": false,
+   "not_dumped": true,
+   "n_txs": 2,
+   "max_hold": 353.195717,
+   "end_hold": 353.195717
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ },
+ {
+  "group": "B_claimed_legit",
+  "mint": "GL8YYGXKCbfpZYMGAHZyB6hHx1bFFKAkX827pvqwpump",
+  "creator": "5949hDDDHaxoXemTJmVHArL6avYXUxKY8Ad7Tz43GnCg",
+  "name": null,
+  "rb_verdict": "GOOD",
+  "rb_module": "n/a",
+  "rb_detail": "scored GOOD, >20d old",
+  "ground_truth": false,
+  "ground_truth_detail": {
+   "confirmed": false,
+   "traded": false,
+   "not_dumped": false,
+   "n_txs": 13,
+   "max_hold": 96449438.144093,
+   "end_hold": 0
+  },
+  "goplus_verdict": "SAFE",
+  "goplus_flags": [],
+  "goplus_raw_present": true
+ }
+]
