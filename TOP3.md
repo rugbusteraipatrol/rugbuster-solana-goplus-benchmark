@@ -18,6 +18,14 @@ Group A) found the same pattern on 7/8; the 1 exception was a genuine slow
 exit over 7.6 days and is not being claimed as a rug. Combined: **10/11
 (91%)** of checked confirmed-dump cases are fast, non-organic exits.
 
+## Honest caveat
+
+The same benchmark process also exposed a RugBuster-side scoring issue: a
+GOOD-labeled control sample showed 9/10 false GOOD-style outcomes under the
+same creator-exit review. The root cause was that fresh pump.fun tokens could
+inherit an unreliable third-party RugCheck signal too strongly. That path was
+fixed and deployed before this benchmark package was published.
+
 ---
 
 ### 1. `CHMfiUmZvKwLdjo3nfZHQHp3RrbCBMAuRkkqnGPnpump`

@@ -20,6 +20,8 @@ python scripts/reproduce.py data/mints_17.json
 
 The script uses public Solana RPC and the public GoPlus endpoint. It does not require RugBuster credentials, a private database, Helius, or any API key. Public RPC can be slow/rate-limited; failures should be retried rather than treated as a changed result.
 
+If you want a quick sanity check, start with a smaller input file containing 1-3 rows from `data/mints_17.json`. Running the full 17-token set, and especially extending it to the broader benchmark/control rows, can take a while because every token requires public RPC transaction-history calls plus a GoPlus request.
+
 ## Important scope limits
 
 This is a small evidentiary benchmark, not a universal accuracy claim.
