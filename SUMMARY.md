@@ -5,14 +5,53 @@ Chain: Solana
 Scope: pump.fun-style token launches  
 Status: public benchmark artifact package
 
-## Summary
+## Update 2026-09-17 — what the public API returns today
+
+The `DANGER` labels in the tables below are what RugBuster's Solana collector
+recorded on 2026-08-24. The public API's live path was rewritten between
+2026-09-07 and 2026-09-10 (scoring version 2026.09.7 → 2026.09.9) so that it
+never clears a token it has no basis to clear, and so that it says which kind of
+answer it is giving (`verdict_basis`: FINDING, REFUSAL or GAP).
+
+All 60 benchmark mints were re-run against the public API on 2026-09-17
+(`data/rerun_2026-09-17.json`):
+
+| Group | 2026-08-24 collector label | 2026-09-17 public API label |
+|---|---|---|
+| A — 30 suspected rugs (17 confirmed) | 30 × DANGER | 28 × WARN, 1 × DANGER, 1 × GOOD |
+| B — 30 control tokens | 30 × GOOD | 30 × WARN |
+
+- Of the 17 on-chain-confirmed dumps, **17 of 17 are still not cleared as GOOD**.
+  16 return `WARN` with basis `REFUSAL` (`live_scan_cannot_clear_token`,
+  `too_few_holders_to_clear`): the mint has almost no holders or liquidity left,
+  so a low upstream score means only that there is nothing left to measure.
+- The one Group A token now `GOOD` (`2SVgSUgfAd1P…`) is not one of the 17: its
+  creator dump was **not** confirmed by the on-chain trace.
+- The control group moving from GOOD to WARN is the same refusal applied evenly:
+  these are dead July mints too, and the live path no longer calls a dead mint
+  safe on upstream's word.
+
+The defensible claim is therefore narrower than the August wording:
+
+> RugBuster does not clear any of the 17 confirmed creator-dump tokens as safe
+> (17/17 not cleared as GOOD); GoPlus's static token-security path returned
+> SAFE for 17/17. Declining to clear a mint is not the same as identifying a rug.
+
+Why the live path says WARN rather than DANGER: the deployer-history signal
+(serial rugger / funding hops) that produced the August `DANGER` labels lives in
+the collector's stored rows and is **not yet consulted on the live path**. The
+API reports that gap explicitly in `not_established` ("what this deployer's
+previous tokens did"). Closing that gap is the next planned change; until it
+ships, cite this benchmark with the wording above.
+
+## Summary (as written 2026-08-24)
 
 I benchmarked RugBuster against the public GoPlus Solana `token_security` response path on a small evidentiary set of Solana pump.fun tokens.
 
 Headline result:
 
 - 17 tokens were independently confirmed as rug/dump cases by tracing creator balances on-chain.
-- RugBuster labeled those 17 as `DANGER`.
+- RugBuster's collector labeled those 17 as `DANGER` on 2026-08-24 (the public API today returns `WARN`/REFUSAL for 16 of them — see the update above).
 - GoPlus labeled 17/17 as `SAFE` with no flags in the tested response path.
 
 This is not framed as "GoPlus is bad." The observed gap appears structural:

@@ -1,5 +1,9 @@
 # Top 3 — RugBuster caught it, GoPlus called it SAFE
 
+> Note (2026-09-17): the RugBuster `DANGER` labels below are the collector's
+> labels from 2026-08-24. The public API today returns `WARN` (refusal to clear)
+> for these mints; none is cleared as GOOD. See the update at the top of SUMMARY.md.
+
 Solana pump.fun tokens. GoPlus's Solana `token_security` check only inspects
 static mint-account properties (mintable/freezable/closable/transfer
 authority) — properties every pump.fun token has revoked by the platform's

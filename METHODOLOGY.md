@@ -1,6 +1,11 @@
 # RugBuster vs GoPlus — Solana evidentiary benchmark
 Run date: 2026-08-24. Chain: Solana only (see methodology note on why AVAX was dropped).
 ## Headline result
+> Note (2026-09-17): RugBuster labels in this document are the collector's labels
+> from 2026-08-24. The public API's live path now returns `WARN` (basis REFUSAL)
+> for 16 of the 17 confirmed rugs; 17/17 remain not cleared as GOOD. See the
+> update at the top of SUMMARY.md and `data/rerun_2026-09-17.json`.
+
 On **17 independently-confirmed real rug tokens** (creator bought then dumped ≥95% of peak holding, traced on-chain via Helius — not our own DB label), **GoPlus flagged 0/17 as DANGER and marked 17/17 SAFE**.
 This is not a close result, and it is not really about GoPlus being worse at catching rugs — it's structural. GoPlus's Solana `token_security` endpoint only reports **static mint-account properties** (mintable, freezable, closable, transfer-authority flags). Every pump.fun token has these revoked by the platform's own token-creation template, rug or not — so GoPlus's Solana check cannot fire DANGER on a bonding-curve dump-style rug **on any pump.fun token, period**, independent of whether it actually rugged. RugBuster's edge here is a different kind of signal entirely (deployer history / funding-hop clustering), not a better version of the same check.
 ## Methodology notes (read before citing this)
