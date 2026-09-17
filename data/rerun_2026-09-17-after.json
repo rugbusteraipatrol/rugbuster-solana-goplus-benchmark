@@ -1,0 +1,789 @@
+{
+ "run_at": "2026-09-17 (after deploy of bae168a)",
+ "api": "https://rugbuster-solana-api-production.up.railway.app/score?address=<mint>",
+ "api_build_commit": "bae168ac",
+ "scoring_version": "2026.09.10",
+ "note": "then = collector label in data/benchmark.csv (2026-08-24); now = public API label on 2026-09-17 after the deployer-history change. ground_truth True = creator dump confirmed on-chain.",
+ "rows": [
+  {
+   "group": "A_claimed_rug",
+   "mint": "CXRhJrBcCk1m83soxiGjY1AwiY6awAxhua6zPZMqpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_high"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "ETWVkgQHsqnDWTmYg3hkhEPSfN49K7S42BhGPVZXpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_elevated"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "4iP7S9fCzDT1fMYRT71eEqyNjYjuVW3H6JH6Pscepump",
+   "ground_truth": "",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_high",
+    "high_ownership",
+    "single_holder_ownership",
+    "top_10_holders_high_ownership"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "36asThTj9MMaLzUtHwcccPqRyaMnDRDrvYSaKqcXpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_high"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "74nxamVTxGkqH2P4UCK6qmfBRcTGyKRAUnsDtBKEpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "HoBvJJQxb9Dq2P2sePRkLEzAeZxvmG5QqKumy1PHpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_elevated"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "FXeybZmUtC6iRWuHTXuWEvBK8k4YrEfqo6duNBHx1WeB",
+   "ground_truth": "",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "GAP",
+   "risk_flags": [
+    "high_ownership",
+    "single_holder_ownership",
+    "top_10_holders_high_ownership"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "5qa7a6SJencH8aCiPMVkygeC9k22TXErwU3uAMMkpump",
+   "ground_truth": "",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "7hZL9nGF37WRMLk8bRWa2WwfbKCifFoxNG2ixPoWpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "EFz8iiRZun936jwQFCSEosb1dPSHqDZF8Rbr7iBEdxFv",
+   "ground_truth": "",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "GVpuL5cBU6WmUffK7UrBDvbDYLSojDLMgM53y7BPpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_high"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "G6WpLkxU44fqWQ5W2y5fDwm5cMG26n3a2TqGwf4upump",
+   "ground_truth": "False",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "HEoAb66vM87StCj3xyzDSCwVfPgx9ffp2yz1zqkgpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "3FpBvhnAJAxjH25WqpYfoUuuB7Dy1UT72Aax4Na5pump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_high"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "6vpuYc1JzwsHvdf7gHQDby6o45mqsLe9QsJ5uDzgpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_high"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "2SVgSUgfAd1PWs83rjgBBfmdJyerktdsKFCdZdEwpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "GOOD",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "low_liquidity"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "E1XN3WJLZsuBkFc5kw5R1YkdNaQx4VSwkXh4Dyz7pump",
+   "ground_truth": "False",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "3TByinjHpnNVZsH2miX9DwgTFB7JPm65yzDN2gSqpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "3ZuZXv2g3TZofEogzM9rwEbVB5i1NwL8TqNCWH2jpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_high"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "7p7ZMhihbDEoRmjTrriUMpM6jHE1jBhjXFG6iztPpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "6ML7tXmHEyESa2Rtj9FzqvQVA5DhsjPh4wpAvGgLpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "7yxMBwCGGoezVoQbe1nJnEJhUa5srGXUUcaMJUGJpump",
+   "ground_truth": "",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "CHMfiUmZvKwLdjo3nfZHQHp3RrbCBMAuRkkqnGPnpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_rug_rate_high"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "5dZgVxYT8eaNFnhK4MiAXcfpmJZw7sYuVt8d6ga7pump",
+   "ground_truth": "False",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_high"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "3n1Zy2pjN1WmKirKP31xvdZNC5QGEtisZpCP8taDpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_elevated"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "BiHqVnZibFk3po2JpTWnpeDy1ryTceQ88x1HM5TEpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "23dxgqAtivdW9cZz7UDFAGXUtByz5sXhKRDENdbXpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_elevated"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "5xiZPxhgFf3cUZoYFesgVtaCjGLmnC6b98tpGDKVpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "AShmQtSBCXX7ygHs9kv1Gkrfw5dqkfAidc9hZpowpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "A_claimed_rug",
+   "mint": "AyerU4udx5PF6ueZne2GuhgLDkqqQLuxzVPbS5sppump",
+   "ground_truth": "True",
+   "label_2026_08_24": "DANGER",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "6BmPY8dxMgMbuZbni38N71Ym2kqzy9pFxuNmAQb9pump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "9vhS5xp7v1UnixkSQxA2JEda6QCuDzLy82YLdYWrpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "BDP33gsHqtXcLfQNp6M3egzT7wpuvnghjLzVSrecpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "Ci627cbj7msKJ6wnBLSvAjeAjm4R41uP9t4aNmGUpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "Fzvj7uow6JmyFdy7p6kL54k3GxPpqFuEnUnSFMygpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "4Jvo1xiBdXrGo7ftxFUikPeYfdyetSCUjbBQaWappump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "5qYhzhLyYtpq8wNh7Y1nZKUPC1ys2DyHpdadCi4zpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "Bs9t9FVsA1FjwqmN15v5ebX2C7z2puB763d14wvnpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "NO_DATA"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "Eku2gfEAEtPTKohd4z51NhUpUrNjZEzYhSVPTtmcpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "NO_DATA"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "Ak1ST5enz4fz5rRcygB7QZikZi9Wx83xtFevjQx3pump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "NO_DATA"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "GvGQVVuqRGr3Ws6xm7Ufz4hWo5sZTVkGYyHc8sjMpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "NO_DATA"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "57hUtXYAHgRf4HeWUhGKHgD1dx1eAkuLkeZExxBHpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "AZ8iS2BAi38X4xk6HRzCb4XJxGYSq94y1KDZtsQBpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "5RniaQHEsKAMzJEZ6ahiZVau2pHc4A7A1b7RiMZspump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "Gj6y1oVf13o3NsRPCPazHevkHMNdGUxYkqpb3ABQpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "4TiKm8SYaKXUKNzCaMWTKcHNUEfMEpYbUPf4M9TMpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "Ei87k3iyJqSvp18BY7RnCgFxugWn7bdXzwRi2qsApump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "9Dm4sMhcJBqP9W6xSTknn6W4PBst76rMqkQ5sRYopump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "DANGER",
+   "verdict_basis": "FINDING",
+   "risk_flags": [
+    "creator_history_of_rugged_tokens",
+    "creator_rug_rate_elevated"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "FtXZUD4MXncUCJ3HqiJJh3pdzT3wPkjSWbr75AV9pump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "3df1C56QgdTabmKvRjmfSFU4pN8wnPn3bqhf1ktbpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "AWjPT7ytE5CpKeb8uxiuWVt6SN6KS7eLNus5tijYpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "4Zvkhj2uoVAcDxt2wNTEo2EFxCgCnyffdRGQVK9Dpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "6eqqERgLGrhfuFyqb4vFBJjGiaKxfFWgsLX3C9etpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "HzjqQ9t49zDdoHfc5WGunE5fS1KMhPLAd7hHEwxwpump",
+   "ground_truth": "True",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "HtUaxcyo5i1kATkqpnUAZVNYftDJo8CpJyt2baX2pump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "3RTgJ5V2nCSfSueK3kLaRmSrHoVeJuj9X7xwghFkpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "51FFRiw21aFV3XYBVEpEfpDKFzTwFVYRa3CN71Ttpump",
+   "ground_truth": "",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "insufficient_liquidity_to_clear",
+    "live_scan_cannot_clear_token"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "BLL8rQwibSnEbjz9pG2wEQXnqCbdjCC8t3ASwdYppump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "C1CVJke9MVyCDPMfaviorQyAfodzoMuegpjX1Y3Hpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  },
+  {
+   "group": "B_claimed_legit",
+   "mint": "GL8YYGXKCbfpZYMGAHZyB6hHx1bFFKAkX827pvqwpump",
+   "ground_truth": "False",
+   "label_2026_08_24": "GOOD",
+   "label_2026_09_17_after": "WARN",
+   "verdict_basis": "REFUSAL",
+   "risk_flags": [
+    "live_scan_cannot_clear_token",
+    "too_few_holders_to_clear"
+   ],
+   "goplus": "SAFE"
+  }
+ ]
+}

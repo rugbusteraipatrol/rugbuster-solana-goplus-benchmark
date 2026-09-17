@@ -8,7 +8,8 @@ Start here:
   2026-09-17 update at the top first:** the public API now returns `WARN` (refusal
   to clear) rather than `DANGER` for the confirmed rugs; the supportable claim is
   "17/17 not cleared as GOOD", not a detection rate.
-- [data/rerun_2026-09-17.json](data/rerun_2026-09-17.json) — all 60 benchmark mints re-run against the public API on 2026-09-17.
+- [data/rerun_2026-09-17.json](data/rerun_2026-09-17.json) — all 60 benchmark mints re-run against the public API on 2026-09-17, before the deployer-history fix.
+- [data/rerun_2026-09-17-after.json](data/rerun_2026-09-17-after.json) — the same 60 after the fix (API commit `bae168a`): 10 of the 17 confirmed dumps DANGER on creator history, 17/17 still not cleared.
 - [METHODOLOGY.md](METHODOLOGY.md) — longer methodology notes from the benchmark run.
 - [TOP3.md](TOP3.md) — three strongest timing-verified examples.
 - [data/confirmed_17.csv](data/confirmed_17.csv) and [data/confirmed_17.json](data/confirmed_17.json) — filtered headline set: Group A rows where creator dump was independently confirmed.

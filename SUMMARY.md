@@ -37,12 +37,45 @@ The defensible claim is therefore narrower than the August wording:
 > (17/17 not cleared as GOOD); GoPlus's static token-security path returned
 > SAFE for 17/17. Declining to clear a mint is not the same as identifying a rug.
 
-Why the live path says WARN rather than DANGER: the deployer-history signal
-(serial rugger / funding hops) that produced the August `DANGER` labels lives in
-the collector's stored rows and is **not yet consulted on the live path**. The
-API reports that gap explicitly in `not_established` ("what this deployer's
-previous tokens did"). Closing that gap is the next planned change; until it
-ships, cite this benchmark with the wording above.
+Why the live path said WARN rather than DANGER: the deployer-history signal
+(serial rugger / creator rug rate) that produced the August `DANGER` labels
+lives in the collector's stored rows and, until the change below, was not
+consulted when a stale row was refreshed. The API reported that gap explicitly
+in `not_established` ("what this deployer's previous tokens did").
+
+### Same day, after the fix (API commit `bae168a`, scoring 2026.09.10)
+
+The API now carries the collector's deployer history across a refresh
+(`deployer_history` in the response; `evidence.creator_history` reported as
+collected). Re-run of the same 60 mints (`data/rerun_2026-09-17-after.json`):
+
+| Set | Result after the fix |
+|---|---|
+| 17 on-chain-confirmed dumps | **10 × DANGER (basis FINDING: creator has earlier rugs on record), 7 × WARN (REFUSAL), 17/17 not cleared as GOOD** |
+| Group A, all 30 | 14 × DANGER, 15 × WARN, 1 × GOOD (the unconfirmed one, as before) |
+| Group B, 30 control tokens | 29 × WARN, **1 × DANGER** |
+
+Two things to read honestly:
+
+- The 7 confirmed dumps that stay at WARN have **zero earlier rugs on record**
+  for their creator. The collector's August `DANGER` on them came from its
+  funding-chain signal, whose threshold the API does not adopt. The collector
+  also counted the scanned token itself in the creator's rug count when that
+  token was DANGER; the API subtracts it, so a verdict cannot cite itself as
+  its own history. That correction is why the number is 10, not 17.
+- One control token (`9Dm4sMhcJBqP…`) is now `DANGER` because its creator has
+  earlier rugs on record (`creator_history_of_rugged_tokens`,
+  `creator_rug_rate_elevated`). The on-chain trace found **no** creator dump on
+  this token. Under the token-dump metric that is a false positive; under the
+  deployer-history claim it is exactly what the signal says — the creator, not
+  this token, has the record. It is left in the table rather than explained away.
+
+The supportable claim after the fix:
+
+> Of 17 on-chain-confirmed creator-dump tokens, RugBuster's public API returns
+> DANGER for 10 on the strength of the creator's recorded history and declines
+> to clear the other 7 (17/17 not cleared as GOOD). GoPlus's static path
+> returned SAFE for 17/17.
 
 ## Summary (as written 2026-08-24)
 
