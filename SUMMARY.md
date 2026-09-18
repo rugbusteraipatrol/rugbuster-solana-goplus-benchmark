@@ -5,6 +5,31 @@ Chain: Solana
 Scope: pump.fun-style token launches  
 Status: public benchmark artifact package
 
+## Update 2026-09-18 — how big were these creators' positions?
+
+A larger follow-up study labelled 9,170 launches by on-chain outcome
+([rugbuster-solana-outcomes](https://github.com/rugbusteraipatrol/rugbuster-solana-outcomes)).
+It counts a creator exit as a rug only when there were buyers and the creator
+held at least 1% of supply. Applying that bar to this benchmark's 17 confirmed
+dumps, read again from chain on 2026-09-18 (the API's `qa/2026-09-18-creator-position.txt`):
+
+| creator's peak share of supply | confirmed dumps |
+|---|---|
+| under 1% | 13 |
+| 1% – 5% | 2 |
+| 5% or more | 2 |
+
+This benchmark's ground truth was "the creator sold 95% or more of whatever they
+held", with no minimum size. So "17 confirmed rugs" should be read as "17 tokens
+whose creator sold out", and for 13 of them the creator's own wallet held under
+1% of supply. The stake may have been held elsewhere (side wallets are not
+traced), but we cannot show that here. The GoPlus comparison is unaffected:
+GoPlus returned SAFE for all 17 on static checks either way.
+
+Since scoring 2026.09.18 the public API reads the creator's position on every
+live scan. Of these 17 it now returns DANGER for 2 (15.3% sold, and 13.0% still
+held) and WARN for the other 15, still 17/17 not cleared as GOOD.
+
 ## Update 2026-09-17 — what the public API returns today
 
 The `DANGER` labels in the tables below are what RugBuster's Solana collector

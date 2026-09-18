@@ -5,7 +5,8 @@ Public benchmark package for the RugBuster vs GoPlus Solana pump.fun comparison.
 Start here:
 
 - [SUMMARY.md](SUMMARY.md) — short public write-up and headline result. **Read the
-  2026-09-17 update at the top first:** the public API now returns `WARN` (refusal
+  2026-09-18 and 2026-09-17 updates at the top first.** 2026-09-18: for 13 of the 17
+  confirmed dumps the creator's own wallet held under 1% of supply. 2026-09-17: the public API now returns `WARN` (refusal
   to clear) rather than `DANGER` for the confirmed rugs; the supportable claim is
   "17/17 not cleared as GOOD", not a detection rate.
 - [data/rerun_2026-09-17.json](data/rerun_2026-09-17.json) — all 60 benchmark mints re-run against the public API on 2026-09-17, before the deployer-history fix.
